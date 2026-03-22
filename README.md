@@ -4,16 +4,6 @@ Flask web app for managing students, teachers, and courses. Role-based access: A
 
 ## Quick Start
 
-```bash
-git clone https://github.com/YOUR_USERNAME/university_management.git
-cd university_management
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1    # Windows
-# source .venv/bin/activate     # Mac/Linux
-pip install -r requirements.txt
-python app.py
-```
-
 Open **http://127.0.0.1:5001**
 
 > Configure SQL Server in `database_fallback.py` before running.
